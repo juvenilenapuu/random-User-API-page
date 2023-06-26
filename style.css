@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(#111B21 50%,#FFFFFF 50%);
+}
+
+.container{
+    display: block;
+    width: 100%;
+}
+
+.bg-wrapper{
+    display: block;
+    background-color: #2D2E32;
+    width: 100%;
+    height: 50vh;
+    padding-top: 60px;
+    position: relative;
+}
+
+h1{
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: -30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    
+}
+
+.profile-card{
+    display: block;
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: -35vh;
+    background-color: #fff;
+    padding-bottom: 50px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile-header{
+    background-color: #eee;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 50px;
+}
+
+.user-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-top: 80px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid black;
+    margin-top: -80px;
+}
+
+img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title-info{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#2D2E32;
+}
+
+.title-details{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.info-icons{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto 20px auto;
+    
+}
+
+.icon img{
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+}
+
+.icon img:hover{
+    width: 30px;
+    height: 30px;
+    background-color:#bdbdbd;
+    transition: all .3s ease-in-out;
+}
+
+
+
+
